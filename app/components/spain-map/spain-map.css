@@ -1,0 +1,25 @@
+h1 {
+    color: blue;
+}
+.province {
+    fill: #fff !important;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.province:hover {
+    fill: #000 !important;
+}
+.province:after {
+    content: holi;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background: #000;
+    color: #fff;
+    z-index: 100;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.25s;
+}
